@@ -301,7 +301,8 @@ namespace {
 
     std::sort(out.begin(), out.end(), [](const SubGhzFileEntry& a, const SubGhzFileEntry& b) {
       if (a.isCurrent != b.isCurrent) return a.isCurrent > b.isCurrent;
-      return a.path > b.path;
+      return (bool)(a.path > b.path);
+      
     });
     return true;
   }
