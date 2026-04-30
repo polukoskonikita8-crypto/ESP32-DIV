@@ -149,12 +149,12 @@ static const uint8_t OBF_WB[]   = {75, 97, 110, 109, 122, 92, 109, 107, 96, 38, 
 #endif
 
 /* NRF24 */
-#define CE_PIN_1  15
-#define CSN_PIN_1 4
+#define CE_PIN_1  22
+#define CSN_PIN_1 27
 #define CE_PIN_2  47
 #define CSN_PIN_2 48
-#define CE_PIN_3  14
-#define CSN_PIN_3 21
+#define CE_PIN_3  22
+#define CSN_PIN_3 27
 
 /* IR Remote (Record/Replay)
  * NOTE: Default pins overlap with the optional NRF24 #3 wiring above.
